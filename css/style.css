@@ -137,7 +137,6 @@ span.scale-rating>label {
   width: calc(10% - 7px);
   display: inline-block;
   cursor: pointer;
-  float: left;
   
 }
 
@@ -177,6 +176,10 @@ span.scale-rating label input[type=radio]:checked~label {
 
   margin: 0;
   background: #4794d0;
+  
+}
+.selector{
+  width:100% !important;
 }
 
 span.scale-rating label:before {
@@ -215,5 +218,39 @@ box-shadow: 0px 0px 8px #49ceff;
   text-align: center;
 
 }
+
+
+.submit_done_wrapper {
+  background: white;
+  width: 60%;
+  height: 50%;
+  margin-left: 20%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submit_done{
+  
+  text-align: center;
+  padding: 0 30px 30px;
+  height:80%;
+}
+
+.submit_done>h1{
+  background: -webkit-linear-gradient(129deg, rgb(220, 127, 254) 0%, rgba(21,101,255,1) 100%);;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  /* color:linear-gradient(129deg, rgba(138,26,178,1) 0%, rgba(21,101,255,1) 100%); */
+}
+
+.next_option{
+  
+  margin-top:15%;
+  font-size:12px;
+  
+  
+}
+
 
 
