@@ -1,0 +1,219 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+article, header, section, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+body {
+    background:#d9e5ed none repeat scroll 0 0;
+    color: #222;
+    font-size: 100%;
+    line-height: 24px;
+    margin: 0;
+	padding:0;
+	font-family: "Raleway",sans-serif;
+}
+a{
+	font-family: "Raleway",sans-serif;
+	text-decoration: none;
+	outline: none;
+}
+a:hover, a:focus {
+	color: #373e18;
+}
+section {
+    float: left;
+    width: 100%;
+	padding-bottom:3em;
+}
+h2 {
+    color: #1a0e0e;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    line-height: normal;
+	text-transform:uppercase;
+}
+h2 span {
+    display: block;
+    padding: 0;
+    font-size: 18px;
+    opacity: 0.7;
+    margin-top: 5px;
+	text-transform:uppercase;
+}
+
+.feedback {
+  width: 100%;
+  max-width: 780px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 15px;
+  box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.fdbk-heading {
+  margin: 0 auto;
+text-align:center;
+}
+
+.FdbkHeader {
+  float: left;
+  width: 100%;
+  padding: 2em 0;
+}
+
+.FdbkHeader h1{
+	font-family: "brandon-grotesque", "Brandon Grotesque", "Source Sans Pro", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    line-height: normal;
+
+}
+
+.FdbkHeader h2 {
+  color: #bcddfc;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 5px 0 0;
+  line-height: normal;
+
+}
+
+label{
+  color:rgb(8, 46, 128);
+  margin-bottom:10px;
+}
+
+.survey-hr {
+  margin: 20px 0;
+  border: .5px solid #ddd;
+}
+
+body {
+  background-image: url('illustration.png') !important;
+}
+
+.choice {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 20px;
+  display: block;
+}
+
+.header_logo{
+  text-align: center;
+}
+.header_logo>img{
+  margin-bottom: 20px; width:auto;height: 35px;
+}
+
+span.scale-rating {
+  margin: 5px 0 15px;
+  display: inline-block;
+
+  width: 100%;
+
+}
+
+span.scale-rating>label {
+  position: relative;
+  outline: 0 !important;
+  border: 1px solid grey;
+  height: 33px;
+  margin: 0 5px 0 0;
+  width: calc(10% - 7px);
+  display: inline-block;
+  cursor: pointer;
+  float: left;
+  
+}
+
+span.scale-rating label {
+  position: relative;
+  outline: 0 !important;
+  height: 33px;
+  margin: 0 5px 0 0;
+  width: calc(10% - 7px);
+  float:left;
+
+  cursor: pointer;
+}
+
+span.scale-rating input[type=radio] {
+  position: absolute;
+  opacity: 0;
+  outline: 0 !important;
+  height: 33px;
+  float:left;
+  margin: 0 5px 0 0;
+
+  width: 100%;
+  cursor: pointer;
+  z-index: 3;
+}
+
+span.scale-rating label:hover {
+  background: #4794d0;
+}
+
+span.scale-rating input[type=radio]:last-child {
+  border-right: 0;
+}
+
+span.scale-rating label input[type=radio]:checked~label {
+
+  margin: 0;
+  background: #4794d0;
+}
+
+span.scale-rating label:before {
+  content: attr(value);
+  top: 7px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 2;
+}
+
+
+.submit_btn {
+  text-align: center;
+background:#27608c;
+  color: #fff;
+  border-radius:9px;
+  padding: 12px;
+  border: 0;
+  transition: 0.3s;
+
+}
+
+.submit_btn:hover {
+background:#4a99d5;
+box-shadow: 0px 0px 8px #49ceff;
+
+
+}
+
+
+.submit_btn_wrapper{
+  text-align: center;
+
+}
+
+
